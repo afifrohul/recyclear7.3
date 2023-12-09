@@ -4,6 +4,7 @@ steps:
     args:
       - '-c'
       - |
+        mkdir -p app/bootstrap/cache
         chmod -R 775 app/bootstrap/cache
 
   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
