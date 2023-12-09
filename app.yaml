@@ -18,6 +18,13 @@ env_variables:
     APP_DEBUG: true
     APP_ENV: production
     APP_KEY: base64:MPf432qr029OrrVeQchLvxLbjuM8xxL2lJsgFAvrrag=
-    APP_NAME: "GCP App - CODE"
+    APP_NAME: "RECYCLEAR"
 
     LOG_LEVEL: debug
+
+    DB_CONNECTION: mysql
+    DB_HOST: 34.128.77.35
+    DB_PORT: 3306
+    DB_DATABASE: recyclear
+    DB_USERNAME: recyclear-admin
+    DB_PASSWORD: recyclear-admin
