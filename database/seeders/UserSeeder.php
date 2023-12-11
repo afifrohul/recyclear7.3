@@ -24,5 +24,16 @@ class UserSeeder extends Seeder
         $Admin->created_at = now();
         $Admin->updated_at = now();
         $Admin->save();
+        
+        $user = new \App\Models\User();
+        $user->name = 'afif-admin';
+        $user->email = 'afif@gmail.com';
+        $user->email_verified_at = now();
+        $user->password = \Hash::make('afif1234');
+        $user->status = 'freemium';
+        $user->remember_token = \Str::random(60);
+        $user->created_at = now();
+        $user->updated_at = now();
+        $user->save();
     }
 }
