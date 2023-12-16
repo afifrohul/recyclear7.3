@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\TagController;
+use App\Http\Controllers\PredictionController;
 use App\Http\Controllers\DocumentationApiController;
 
 /*
@@ -38,6 +39,8 @@ Route::post('/tag/new', [TagController::class, 'store']);
 Route::post('/tag/edit/{tag}', [TagController::class, 'edit']);
 Route::put('/tag/update/{tag}', [TagController::class, 'update']);
 Route::delete('/tag/destroy/{tag}', [TagController::class, 'destroy']);
+
+Route::get('/prediksi', [PredictionController::class, 'index']);
 
 Route::get('/documentation-api', [DocumentationApiController::class, 'index']);
 

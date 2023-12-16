@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.12.1/css/pro.min.css">
   <link rel="stylesheet" type="text/css" href="{{asset('assets/css-admin/style.css')}}">
   <script src="https://cdn.ckeditor.com/ckeditor5/36.0.1/classic/ckeditor.js"></script>
+  <link rel="icon" type="image/png" href="{{asset('assets/logos/logo.png')}}">
+
   @yield('extraCSS')
 </head>
 <body class="bg-gray-100">

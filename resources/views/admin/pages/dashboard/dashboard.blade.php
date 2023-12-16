@@ -37,8 +37,8 @@
                         <div class="h6 text-pink-700 fad fa-calendar"></div>
                     </div>
                     <div class="mt-8">
-                        <h1 class="h5">7 Jumlah Jenis Sampah Plastik</h1>
-                        <p>PET, HDPE, PVC, LDPE, PP, PS, dan lainnya</p>
+                        <h1 class="h5">6 Jumlah Jenis Sampah Plastik</h1>
+                        <p>PET, HDPE, PVC, LDPE, PP, PS</p>
                     </div>
                 </div>
             </div>
