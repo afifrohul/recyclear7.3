@@ -27,3 +27,5 @@ Route::middleware('auth.apikey')->group(function () {
 
 Route::get('/tag', [App\Http\Controllers\API\TagController::class, 'tag']);
 Route::get('/article', [App\Http\Controllers\API\ArticleController::class, 'article']);
+
+Route::get('/prediction/{user_id}', [App\Http\Controllers\API\PredictionController::class, 'prediction']);

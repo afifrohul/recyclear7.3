@@ -95,6 +95,20 @@
                                 <div class="text-sm text-gray-900"><a class="p-3 rounded bg-teal-400 hover:bg-teal-700" href="{{url('api/article')}}" target="__">Klik Disini</a></div>
                             </td>
                         </tr>
+                        <tr>
+                            <td class="px-6 py-4 whitespace-nowrap text-center">
+                                <div class="text-sm text-gray-900">1.</div>
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-left">
+                                <div class="text-sm text-gray-900">Mengambil Data Prediction params:user_id (GET)</div>
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-left">
+                                <div class="text-sm text-gray-900">/prediction/{user_id}</div>
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-center">
+                                <div class="text-sm text-gray-900"><a class="p-3 rounded bg-teal-400 hover:bg-teal-700" href="{{url('api/prediction/{user_id}')}}" target="__">Klik Disini</a></div>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
